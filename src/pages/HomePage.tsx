@@ -12,7 +12,12 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroCenteredLogos
-      avatarText="https://picsum.photos/seed/avatartext/800/600"
+      avatarsSrc={[
+        "https://picsum.photos/seed/avatar1/100/100",
+        "https://picsum.photos/seed/avatar2/100/100",
+        "https://picsum.photos/seed/avatar3/100/100",
+      ]}
+      avatarText="Trusted by 500+ homeowners in Waco & surrounding areas"
       title="We Are Your Home Improvement Experts"
       description="Quality work for Waco, Texas, and surrounding areas. From residential repairs to light commercial projects, we treat every property like our own."
       primaryButton={{
@@ -23,6 +28,7 @@ export default function HomePage() {
         text: "Get an Estimate",
         href: "#contact",
       }}
+      names={["Waco Homes", "Texas Quality", "Palafox Craft", "Central TX"]}
       imageSrc="http://img.b2bpic.net/free-photo/side-view-couple-with-paint-rollers-ladder_23-2147782356.jpg"
       textAnimation="slide-up"
     />
