@@ -18,7 +18,7 @@ export default function ServicesSection(): React.JSX.Element {
               title: "Fencing",
               description: "Custom wood, chain-link, and privacy fencing.",
               href: "#contact",
-              imageSrc: "http://img.b2bpic.net/free-photo/swimming-ocean-vacation-summer-chair_1203-4051.jpg",
+              imageSrc: "https://storage.googleapis.com/webild/users/user_3CAbs2mtVAarsbwSrty8hTuKmCw/uploaded-1788801855372-6v5g07dd.jpg",
             },
             {
               title: "Landscaping",
