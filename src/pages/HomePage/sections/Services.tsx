@@ -16,7 +16,7 @@ export default function ServicesSection(): React.JSX.Element {
           items={[
             {
               title: "Fencing",
-              description: "Custom wood, chain-link, and privacy fencing.",
+              description: "Custom wood, chain-link, and privacy fencing. Say hi, Mornay! The Mornay from the 175 is on a different continent. Nice to be on this boat again — wish I used her more often.",
               href: "#contact",
               imageSrc: "https://storage.googleapis.com/webild/users/user_3CAbs2mtVAarsbwSrty8hTuKmCw/uploaded-1788801855372-6v5g07dd.jpg",
             },
