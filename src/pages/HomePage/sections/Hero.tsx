@@ -53,13 +53,7 @@ const HeroInline = () => {
         <div className="flex flex-col items-center gap-3 pt-8 w-content-width mx-auto text-center">
           <AvatarGroup avatarsSrc={avatarsSrc} label={"Trusted by 500+ homeowners in Atascadero & surrounding areas"} size="lg" />
 
-          <div className="flex flex-col items-center gap-2 mb-2">
-            <img 
-              src="https://storage.googleapis.com/webild/users/user_3CAbs2mtVAarsbwSrty8hTuKmCw/uploaded-1789054288025-1exvlllu.jpg" 
-              alt="Palafox Construction Card" 
-              className="max-w-md w-full rounded-lg shadow-xl border-2 border-white/20 mb-4"
-            />
-          </div>
+
           <TextAnimation
             text={"PALAFOX CONSTRUCTION"}
             variant={"slide-up"}
