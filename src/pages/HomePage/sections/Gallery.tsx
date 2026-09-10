@@ -10,10 +10,10 @@ export default function GallerySection(): React.JSX.Element {
     <div id="gallery" data-section="gallery">
         <SectionErrorBoundary name="gallery">
               <MetricsMediaCards
-          tag="Projects"
-          title="Our Work in Waco"
-          description="A glimpse into the quality projects we have completed for our community."
-          metrics={[
+        tag="Projects"
+        title="Our Work in Atascadero"
+        description="A glimpse into the quality projects we have completed for our community."
+        metrics={[
             {
               title: "Outdoor Decks",
               description: "Custom decks built for comfort.",
@@ -33,8 +33,8 @@ export default function GallerySection(): React.JSX.Element {
               imageSrc: "http://img.b2bpic.net/free-photo/handsome-young-man-opening-fridge_23-2148351743.jpg",
             },
           ]}
-          textAnimation="slide-up"
-        />
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );

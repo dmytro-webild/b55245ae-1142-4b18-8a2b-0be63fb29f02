@@ -87,7 +87,7 @@ export default function Layout() {
           ],
         },
       ]}
-      leftText="© 2024 Palafox Construction, Waco, TX."
+      leftText="© 2024 Palafox Construction, Atascadero, CA 93422."
       rightText="Professional Home Improvement Experts."
     />
       </SectionErrorBoundary>

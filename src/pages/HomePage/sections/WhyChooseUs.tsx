@@ -10,33 +10,12 @@ export default function WhyChooseUsSection(): React.JSX.Element {
     <div id="why-choose-us" data-section="why-choose-us">
         <SectionErrorBoundary name="why-choose-us">
               <FeaturesBentoGrid
-          tag="Why Choose Palafox"
-          title="Built on Quality & Trust"
-          description="We are proud to serve the Waco community with unmatched reliability."
-          features={[
-            {
-              title: "Licensed & Experienced",
-              description: "License #957719. Professionals you can trust with your home.",
-              imageSrc: "http://img.b2bpic.net/free-photo/party-modern-sunny-vacation-swimming_1203-4637.jpg",
-            },
-            {
-              title: "Quality Craftsmanship",
-              description: "We don't cut corners; we focus on perfection.",
-              imageSrc: "https://storage.googleapis.com/webild/users/user_3CAbs2mtVAarsbwSrty8hTuKmCw/uploaded-1788801456343-qlutsyuu.jpg",
-            },
-            {
-              title: "Fair & Honest Pricing",
-              description: "Transparent quotes with no hidden fees.",
-              imageSrc: "http://img.b2bpic.net/free-photo/set-designer-work-indoors_23-2149837026.jpg",
-            },
-            {
-              title: "Local & Reliable",
-              description: "Serving Waco and the surrounding areas.",
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-wooden-path-with-dry-leaves_1137-210.jpg",
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Why Choose Palafox"
+        title="Built on Quality & Trust"
+        description="We are proud to serve the Atascadero community with unmatched reliability."
+        features={[{"title":"Licensed & Experienced","imageSrc":"http://img.b2bpic.net/free-photo/party-modern-sunny-vacation-swimming_1203-4637.jpg","description":"License #957719. Professionals you can trust with your home."},{"imageSrc":"https://storage.googleapis.com/webild/users/user_3CAbs2mtVAarsbwSrty8hTuKmCw/uploaded-1788801456343-qlutsyuu.jpg","title":"Quality Craftsmanship","description":"We don't cut corners; we focus on perfection."},{"description":"Transparent quotes with no hidden fees.","imageSrc":"http://img.b2bpic.net/free-photo/set-designer-work-indoors_23-2149837026.jpg","title":"Fair & Honest Pricing"},{"title":"Local & Reliable","description":"Serving Atascadero, CA and surrounding areas.","imageSrc":"http://img.b2bpic.net/free-photo/close-up-wooden-path-with-dry-leaves_1137-210.jpg"}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
