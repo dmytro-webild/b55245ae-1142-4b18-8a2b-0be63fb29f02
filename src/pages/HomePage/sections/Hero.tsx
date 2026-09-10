@@ -10,26 +10,26 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroCenteredLogos
-          avatarsSrc={[
+        avatarsSrc={[
             "https://picsum.photos/seed/avatar1/100/100",
             "https://picsum.photos/seed/avatar2/100/100",
             "https://picsum.photos/seed/avatar3/100/100",
           ]}
-          avatarText="Trusted by 500+ homeowners in Waco & surrounding areas"
-          title="We Are Your Home Improvement Experts"
-          description="Quality work for Waco, Texas, and surrounding areas. From residential repairs to light commercial projects, we treat every property like our own."
-          primaryButton={{
+        avatarText="Trusted by 500+ homeowners in Atascadero & surrounding areas"
+        title="We Are Your Home Improvement Experts"
+        description="Quality work for Atascadero, California 93422, and surrounding areas. From residential repairs to light commercial projects, we treat every property like our own."
+        primaryButton={{
             text: "Call Now",
             href: "tel:8056106625",
           }}
-          secondaryButton={{
+        secondaryButton={{
             text: "Get an Estimate",
             href: "#contact",
           }}
-          names={["Waco Homes", "Texas Quality", "Palafox Craft", "Central TX"]}
-          imageSrc="http://img.b2bpic.net/free-photo/side-view-couple-with-paint-rollers-ladder_23-2147782356.jpg"
-          textAnimation="slide-up"
-        />
+        names={["Atascadero Homes","California Quality","Palafox Craft","Central Coast"]}
+        imageSrc="http://img.b2bpic.net/free-photo/side-view-couple-with-paint-rollers-ladder_23-2147782356.jpg"
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
